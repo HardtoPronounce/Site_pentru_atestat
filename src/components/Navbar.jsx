@@ -1,19 +1,19 @@
-import React from 'react'
-import './styles/navbar.css'
+import '../styles/navbar.css';
 
 export default function Navbar() {
+  const path = window.location.pathname
   return (
-    <nav classname='nav'>
+    <nav className='nav'>
         <a href='/' className='site-title'>Companion</a>
         <ul>
             <li>
-                <a href='/petCare'>Pet care</a>
+                <a href='./pages/PetCare'>Pet care</a>
             </li>
             <li>
-                <a href='/about'>About</a>
+                <a href='./pages/About'>About</a>
             </li>
         </ul>
-
     </nav>
   )
 }
+
