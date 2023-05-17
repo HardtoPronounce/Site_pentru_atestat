@@ -1,0 +1,71 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: purple;
+    background-color: rgba(255, 255, 255, 0.8); 
+ }
+
+ .center-header {
+    text-align: center;
+    color: purple;
+    border: 2px solid purple;
+    margin-top: 1rem;
+    padding: 10px;
+    padding-top: 1rem;
+    
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 30rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .image {
+    position: relative;
+    margin-bottom: 20px;
+    flex-basis: calc(25% - 20px); 
+    height: 100%;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 2rem;
+  }
+
+.usual-paragraph {
+  text-align: center;
+  color: purple;
+  font-size: 1.5rem;
+  padding: 0 20px;
+}
+
+
+
+  
+  

@@ -1,0 +1,13 @@
+.contact-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: purple;
+    font-size: xx-large;
+}
+
+.cat {
+    text-align: center;
+    margin-top: 1rem;
+}

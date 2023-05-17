@@ -1,0 +1,25 @@
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-header {
+    text-align: center;
+    color: purple;
+    font-size: 4rem;
+}
+
+.about-stuff p {
+  text-align: center;
+  color: purple;
+  font-size: 2.5rem;
+  padding-left: 16rem;
+  padding-right: 16rem;
+}
+
+.about-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
