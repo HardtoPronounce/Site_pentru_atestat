@@ -1,16 +1,18 @@
 import '../styles/navbar.css';
 
 export default function Navbar() {
-  const path = window.location.pathname
   return (
     <nav className='nav'>
         <a href='/' className='site-title'>Companion</a>
         <ul>
             <li>
-                <a href='./pages/PetCare'>Pet care</a>
+                <a href='/PetCare'>Pet care</a>
             </li>
             <li>
-                <a href='./pages/About'>About</a>
+                <a href='/About'>About</a>
+            </li>
+            <li>
+                <a href='/Contact'>Contact</a>
             </li>
         </ul>
     </nav>

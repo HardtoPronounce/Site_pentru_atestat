@@ -4,6 +4,8 @@ import PurpleBar from "./components/PurpleBar";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import PetCare from "./pages/PetCare";
+import Footer from "./components/Footer";
+import Contact from "./pages/Contact";
 
 function App() {
   let page
@@ -17,11 +19,19 @@ function App() {
     case '/PetCare':
       page = <PetCare />
       break
+    case '/Contact':
+      page = <Contact />
+      break
+    default:
+      page = <Home />
+      break
   }
   return (
     <>
       <Navbar />  
-      <purpleBar />
+      <PurpleBar />
+      {page}
+      <Footer />
     </>
   );
 }
