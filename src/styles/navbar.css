@@ -31,15 +31,15 @@ body {
 }
 
 .site-title {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .nav li:hover {
-    background-color: #555;
+    background-color: whitesmoke;
 }
 
 .nav li.active {
-    background-color: #555;
+    background-color: whitesmoke;
 }
 
 .customLink {

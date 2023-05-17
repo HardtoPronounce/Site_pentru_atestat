@@ -1,0 +1,21 @@
+.pet-care-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pet-care-text {
+    flex: 1;
+    color: purple;
+    font-size: 2rem;
+}
+  
+.pet-care-image {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex: 0;
+    height: 100%;
+}
+
+  
